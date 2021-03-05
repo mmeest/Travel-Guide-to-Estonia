@@ -7,6 +7,7 @@
     Põnevaid paiku mida Eestis avastada
 </h3>
 
+
 ## Lehelt võib leida
 * *Kaarti, mille huvipunktidele hiirega liikudes kuvatakse punkit nimi*
 * *Maakonnanupud millel klikkides kuvatakse vastava maakonna huvipunktid infokaartidena nuppude alla*
@@ -18,13 +19,6 @@
 ```
 * *Välislingid põnevatele Eestimaad tutvustavatele lehtedele*
 * *Kontaktivorm*
-
-## Features
-* *drag and drop field on HTML*
-* *onclick function to open image*
-* *display thumbnail of dropped image*
-* *display image name under thumbnail*
-
 
 
 ## Kasutatud vahendid
