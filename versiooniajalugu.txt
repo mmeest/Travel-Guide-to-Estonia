@@ -1,0 +1,62 @@
+NB! Andmebaasi ühendusstringile lisatud port '3307'. See vajadusel eemaldada!
+Andmebaasi importimiseks:
+1. Loo andmebaas nimega 'eesti_trip' ning 'utf8mb4_estonian_ci' vormingus
+2. Impordi sellesse andmebaasi fail 'eesti_trip.sql'
+
+
+
+
+	v.2021.03.04
+'inded.php' kuvab nüüdsest 3 juhuslikku huvipunkti andmebaasist
+mis muutuvad lehe refresi korral
+Lisatud kõik maakonnad 
+Lisatud põnevaid linke
+
+
+	v.2021.03.03
+10 maakonda andmebaasis ja maakonnalehed valmis
+Maakonna nuppudel klikkides kuvatakse vastava maakonna huvipunktid andmebaasist maakonnanuppude alla
+
+
+	v.2021.03.02
+Võrumaa sihtkohtade(5tk) punktid paigutatud kaartile koos tooltip'iga
+Võrumaa sihtkohad talletatud andmebaasi(pilte hetkel andmebaasi ei talletata, need asuvad 'img' kataloogis)
+Lehe jalusesse lisatud Copyright
+Andmebaasi lisatud uus veerg 'iframe' kuhu talletatakse iga asukoha Google kaartirakendus
+Valmis 4 maakonnalehte(Võru, Valga, Tartu, Põlva, Jõgeva) nt. 'mk_vorumaa.php'
+Maakonnalehtedel võimalik kuvada ka Google iframe's kaart(hetkel välja kommneteeritud):
+	/* echo$row['iframe']; */		// google kaart
+Antud versioonile lisatud ka andmebaas
+
+
+	v.2021.02.28
+Lisatud kolm (responsive)näidiskaarti hover effektiga(koos suuruse ja taustavärvi muutumisega)
+Loodud andmebaas 'eesti_trip' tabeliga 'siht'
+Tabeli veerud(6): id, tunnus, maakond, nimi, info, asukoht 
+	***
+CREATE TABLE `eesti_trip`.`siht` ( `ID` INT(4) NOT NULL 	AUTO_INCREMENT , `tunnus` VARCHAR(7) NOT NULL , `maakond` 	VARCHAR(3) NOT NULL , `nimi` VARCHAR(50) NOT NULL , `info` 	VARCHAR(1000) NOT NULL , `asukoht` VARCHAR(50) NOT NULL , 	PRIMARY KEY (`ID`)) ENGINE = InnoDB; 
+	***
+
+
+	v.2021.02.27
+Lisatud sihtmärgile kaartil tooltip/title (nimetus) onhover.
+Muudetud lehe vormingut: index.html -> index.php
+Muudetud tagasisidevormi (kontakti email index.php real 13)
+Lehe taust vahetatud(linear-gradient)
+
+
+	v.2021.02.26
+Algne lehe kondikava kokku pandud(HTML) koos elementide algsete näidistega
+Lisatud Bootstrap
+Lisatud menüüriba
+Lisatud Eesti kaart pildina(täisversioonis tasub google mapsi kasutada)
+Lisatud maakondade nupud
+Lisatud ikoonide näidised(4 tk. Sild; majakas; mõis; rongijaam;) kaarti tarvis
+Lisatud sõnumivorm
+
+Leht on responsive:
+Kaarti mõõtmed muutuvad vastavalt ekraani mõõtmetele, 
+alla 800px laiuse ekraani kaart kaotatakse ära.
+Hetkel lehel funktsionaalsus puudub
+
+Ainus funktsionaalsus on kaartile lisatud proovi mõttes ümmargune kollase tausta ja lilla äärisega sillaikoon vasakul ülanurgas, millel klikkides kuvatakse maakonnanuppude alla kiri "Sa klikkisid nupul!"

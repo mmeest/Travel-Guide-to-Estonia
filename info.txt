@@ -1,0 +1,24 @@
+Lehe kasutusjuhis kohtvõrgus
+
+1. Loo oma arvuti xampp'i localhost kataloogi(vaiksättena C:/xampp/htdocs/) projekti tarvis
+kataloog nimega 'trip' ja paki sinna projekti sisu lahti nii, et 'index.php' asuks sel juhul
+C:/xampp/htdocs/trip/index.php
+
+2. Käivita xampp ning selles omakorda 'Apache' ja 'MySQL'
+
+3. MySQL'is kliki 'Admin' 
+
+4. Avanenud phpMyAdmin aknas loo uus andmebaas nimega 'eesti_trip' kodeeringuga: utf8mb4_estonian_ci
+
+5. Impordi sellesse andmebaasi 'eesti_trip.sql'
+
+6. Ava brauseris aadress 'localhost/trip'. Seepeale kuvatakse esileht
+
+7. Kui kõik läks hästi, siis kaarti all asuvatel maakonnanuppudel klikkides
+kuvatakse vastava maakonna huvipunktid.
+
+---------------------------------------------------------------------------------
+
+Kui soov iga infotahvli all kuvada ka google kaarti, siis tuleb 3-täheliste nimedega PHP maakonnalehtede koodis 
+/* echo$row['iframe']; */
+välja kommenteerida.
