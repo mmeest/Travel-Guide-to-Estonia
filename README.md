@@ -43,7 +43,8 @@ $conn = mysqli_connect($servername, $username, $password, $dbname, 3307);
 ```
 
 ### Eesti tähestiku konflikt
-Seada ühendusele 'UTF-8' formaat
+Juhul kui andmebaasi päringul tekib eesti tähtedega konflikt.
+Seada ühendusele 'UTF-8' formaat.
 ```
 $conn -> set_charset("utf8");
 ```
