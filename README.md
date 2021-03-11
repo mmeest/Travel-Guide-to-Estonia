@@ -1,4 +1,4 @@
-<p align="center"><img src="Screenshot.png" width="300px"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/34022590/110831083-928da000-82a2-11eb-801e-bcf827570d18.png" width="300px"></p>
 
 <h1 align="center">
     <strong>Eesti reisijuht</strong>
