@@ -1,14 +1,18 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/34022590/110831083-928da000-82a2-11eb-801e-bcf827570d18.png" width="300px"></p>
 
 <h1 align="center">
-    <strong>Eesti reisijuht/Estonian Travel Guide</strong>
+    <strong>Eesti reisijuht / Estonian Travel Guide</strong>
 </h1>
 <h3 align="center">
-    Põnevaid paiku mida Eestis avastada/Interesting places to visit in Estonia
+    <p>Põnevaid paiku mida Eestis avastada</p>
+    <p>Interesting places to visit in Estonia</p>
 </h3>
 
+|<h2>Lehelt võib leida</h2>|<h2>Page contents</h2>|
+|-|-|
+|* *Kaarti, mille huvipunktidele hiirega liikudes kuvatakse punkit nimi*|* *Map with places of interest*|
 
-## Lehelt võib leida/Page contents
+## Lehelt võib leida / Page contents
 * *Kaarti, mille huvipunktidele hiirega liikudes kuvatakse punkit nimi/Map with places of interest*
 * *Maakonnanupud millel klikkides kuvatakse vastava maakonna huvipunktid infokaartidena nuppude alla/Button for each county in Estonia*
 * *Pealehel kuvatakse kolm juhuslikku huvipunkti andmebaasist/Main page will display 3 random place of interest*
