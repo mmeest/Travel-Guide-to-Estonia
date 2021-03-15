@@ -11,13 +11,11 @@
 |<h2>Lehelt võib leida</h2>|<h2>Page contents</h2>|
 |-|-|
 |* *Kaarti, mille huvipunktidele hiirega liikudes kuvatakse punkit nimi*|* *Map with places of interest*|
+|* *Maakonnanupud millel klikkides kuvatakse vastava maakonna huvipunktid infokaartidena nuppude alla*|* *Button for each county in Estonia*|
+|* *Pealehel kuvatakse kolm juhuslikku huvipunkti andmebaasist*|* *Main page will display 3 random place of interest*|
+|* *Infokaartid sisaldavad ühde pilti, punkti nime, maakonna nime, lühitutvustust, ja google maps linki*|* *Info cards with photo, name and short description*|
+|* *Võimalus kuvada ka google kaart iga infotahvli alla - hetkel välja kommenteeritud*|* *Opitionally can display map on every info card*|
 
-## Lehelt võib leida / Page contents
-* *Kaarti, mille huvipunktidele hiirega liikudes kuvatakse punkit nimi/Map with places of interest*
-* *Maakonnanupud millel klikkides kuvatakse vastava maakonna huvipunktid infokaartidena nuppude alla/Button for each county in Estonia*
-* *Pealehel kuvatakse kolm juhuslikku huvipunkti andmebaasist/Main page will display 3 random place of interest*
-* *Infokaartid sisaldavad ühde pilti, punkti nime, maakonna nime, lühitutvustust, ja google maps linki/Info cards with photo, name and short description*
-* *Võimalus kuvada ka google kaart iga infotahvli alla - hetkel välja kommenteeritud/Opitionally can display map on every info card*
 ```
 /* echo$row['iframe']; */			// google kaart - google map
 ```
