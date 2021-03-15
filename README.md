@@ -27,8 +27,7 @@
 * *SQL*
 
 ### Port 3306 konflikti korral / On port 3306 conflict 
-1. Vahetada port 3307 vastu 'my.ini' failis:\
-Change port to 3307 in 'my.ini' file:\
+1. Vahetada port 3307 vastu 'my.ini' failis: / Change port to 3307 in 'my.ini' file:\
 XAMPP > MySQL > Config > my.ini port 3306 -> 3307
 
 2. 'config.inc' failis: / in 'config.inc' file:\
